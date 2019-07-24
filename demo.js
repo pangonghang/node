@@ -94,19 +94,19 @@
 // console.log('aaaaaa',A);
 // console.log('aaaaaa',buf.length);
 
-let fs = require('fs');
+// let fs = require('fs');
 
-let readStream = fs.createReadStream('./index.txt');
-let writeStream = fs.createWriteStream('./a.txt');
+// let readStream = fs.createReadStream('./index.txt');
+// let writeStream = fs.createWriteStream('./a.txt');
 
-readStream.setEncoding('UTF-8');
+// readStream.setEncoding('UTF-8');
 
-readStream.on('data',()=> console.log('on data',new Date()));
-readStream.on('end',()=> console.log('it is end',new Date()));
+// readStream.on('data',()=> console.log('on data',new Date()));
+// readStream.on('end',()=> console.log('it is end',new Date()));
 
-readStream.pipe(writeStream);
+// readStream.pipe(writeStream);
 
-console.log(writeStream)
+// console.log(writeStream)
 
 
 
